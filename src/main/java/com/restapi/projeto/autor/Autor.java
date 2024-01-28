@@ -17,9 +17,6 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode(of = "id")
 public class Autor {
 
-	public Autor() {
-	}
-	
 	public Autor(AutorDTO autorDTO) {
 		this.nome=autorDTO.nome();
 	}
